@@ -12,10 +12,10 @@ I make puzzles like the one below:
 |C|A|6|D|D|D|1|D|5|C|6|1|**E**|
 | | | | | | | | | | | | | |
 
-Find a path from left to right. 
+**PUZZLE**: Find a path from left to right. 
 
-A valid answer is a string of 24 hex digits. Ex: 69252C0708167843F324961E
+**FORMAT**: A valid answer is a string of 24 hex digits. Ex: 69252C0708167843F324961E
 
-If you're stuck, try looking at bit patterns.
+**HINT**: If you're stuck, try looking at bit patterns.
 
-NOTE: I'm in the process of building a Github action to allow automatic solution checking ;)
+**NOTE**: I'm in the process of building a Github action to allow automatic solution checking ;)
