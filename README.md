@@ -17,3 +17,5 @@ Find a path from left to right.
 A valid answer is a string of 24 hex digits. Ex: 69252C0708167843F324961E
 
 If you're stuck, try looking at bit patterns.
+
+NOTE: I'm in the process of building a Github action to allow automatic solution checking ;)
