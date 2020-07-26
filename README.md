@@ -29,13 +29,15 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 Result: `Incorrect`
 
-Info: Try looking at bit patterns
+Info: The first 4 digits are correct `34B4`
 
 ## Hint
 
 A valid answer takes the form of 25 hex digits. 
 
-Example: `B51C9DA4E71D492E754ADDD92`
+Example: `E36E727C2BD38E24DD128437C`
+
+Check out the bold numbers in the left and right-most columns.
 
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
