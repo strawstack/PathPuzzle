@@ -352,7 +352,7 @@ const checkAnswer = (ans, path, grid) => {
         explain = "The first character was correct";
 
     } else if (total > 1) {
-        explain = `The first ${total} characters are correct: ${ans.substr(0, total)}`;
+        explain = `The first ${total} characters are correct \`${ans.substr(0, total)}\``;
 
     }
 
