@@ -28,6 +28,8 @@ A valid answer takes the form of {{LENGTH}} hex digits.
 
 Example: `{{EXAMPLE}}`
 
+Having trouble? Take a look at the `bit patterns`.
+
 ## NOTE
 
 I'm currently debugging this repo, so the above puzzle may have no solution!
