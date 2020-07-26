@@ -5,7 +5,7 @@ on:
 
 jobs: 
   validate-answer:
-    name: Lint with ESLint
+    name: Validate Puzzle Answer
     runs-on: ubuntu-latest
     if: startsWith(github.event.issue.title, 'Puzzle|')
     steps: 
