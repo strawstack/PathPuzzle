@@ -4,12 +4,12 @@ I make puzzles like the one below. Can you find a path from left to right?
 
 | | | | | | | | | | | | | |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|A|4|8|3|9|3|3|E|C|A|2|C|1|
-|E|E|5|B|1|8|1|2|C|7|C|3|6|
-|5|7|4|1|1|E|1|1|2|1|8|D|C|
-|4|6|4|1|2|E|C|A|2|1|C|4|4|
-|**C**|2|9|9|2|2|3|3|1|1|1|5|**4**|
-|8|2|1|6|7|8|8|1|A|8|8|5|8|
+|D|B|4|9|8|7|8|8|1|2|6|2|7|
+|E|4|6|9|4|5|3|1|3|1|8|1|8|
+|1|8|8|9|4|4|4|6|4|7|E|5|2|
+|A|2|2|2|C|8|8|2|4|4|4|1|4|
+|2|4|4|4|6|D|8|3|9|C|C|3|C|
+|**3**|4|B|1|2|3|C|4|6|9|2|3|**3**|
 | | | | | | | | | | | | | |
 
 
@@ -27,15 +27,15 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 [strawstack](https://www.github.com/strawstack) submitted an answer!
 
-Result: Incorrect
+Result: Correct
 
-Info: The first 6 characters are correct `C29412`
+Info: You got it! The puzzle has been reset
 
 ## Hint
 
-A valid answer takes the form of 23 hex digits. 
+A valid answer takes the form of 25 hex digits. 
 
-Example: `B337EAA1B1BB2A39B9626E8`
+Example: `4111BCD155961319D75E46C4E`
 
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
