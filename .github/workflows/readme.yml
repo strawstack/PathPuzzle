@@ -20,7 +20,7 @@ jobs:
         node-version: 12.x
 
     - name: Update Readme
-      run: node action.js ${{ github.event.issue.title }} ${{ github.event.issue.user.login }}
+      run: node action.js "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}"
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v4
