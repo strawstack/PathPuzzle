@@ -1,6 +1,6 @@
 # Hello, I'm Richard
 
-I make puzzles like the one below. Can you find a path from left to right?
+I make puzzles like the one below. Can you find the path from left to right?
 
 | | | | | | | | | | | | | |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -27,20 +27,16 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 [strawstack](https://www.github.com/strawstack) submitted an answer!
 
-Result: Correct
+Result: `Incorrect`
 
-Info: You got it! The puzzle has been reset
+Info: The first 4 characters are correct `34B4`
 
 ## Hint
 
 A valid answer takes the form of 25 hex digits. 
 
-Example: `4111BCD155961319D75E46C4E`
+Example: `CE33BAC56C3798A47576D7441`
 
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
 Example: `3` -> `0011` and `C` -> `1100`
-
-## NOTE
-
-I'm currently debugging this repo, so the above puzzle may have no solution!
