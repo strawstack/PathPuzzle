@@ -114,6 +114,15 @@ const hexToBin = hex => {
     return bin;
 };
 
+const _hasAtLeastOne = lst => {
+    for (let v of lst) {
+        if (v) {
+            return true;
+        }
+    }
+    return false;
+};
+
 const randomCorrectNumber = hex => {
     // Compatible number given hex letter
     const bin = hexToBin(hex);
@@ -122,6 +131,18 @@ const randomCorrectNumber = hex => {
         if (!bin[i]) {
             ans[i] = (Math.random() > 0.5)? true : false;
         }
+    }
+    // Number must be at least one
+    if (!_hasAtLeastOne(ans)) {
+        let zeros = [];
+        for (let i = 0; i < bin.length; i++) {
+            if (!bin[i]) {
+                zeros.push(i);
+            }
+        }
+        // Random index
+        let ri = zeros[Math.floor(Math.random() * zeros.length)];
+        ans[ri] = true;
     }
     return ans;
 };
@@ -406,9 +427,10 @@ const formatPuzzle = (path, grid) => {
 const storePuzzle = puzzleData => {
     // Write puzzle data to file
     const FILENAME = "./puzzledata.json";
+    const data = JSON.stringify(puzzleData, null, 2);
     fs.writeFileSync(
         FILENAME,
-        JSON.stringify(puzzleData, null, 2)
+        data
     );
 };
 
@@ -444,24 +466,13 @@ const getCurrentPuzzle = () => {
 //
 
 // Constants
-const title = process.env.TITLE;
-const user = process.env.USER;
+const title = process.env.TITLE || "Puzzle|F34TEST";
+const user = process.env.USER || "Strawstack";
 try {
     answer = title.split("|")[1];
 } catch {
     answer = "incorrect"; // will fail below
 }
-
-// Debug Constants
-/*
-const title = "Puzzle|F34EA68";
-const user = "strawstack";
-let answer;
-try {
-    answer = title.split("|")[1];
-} catch {
-    answer = "incorrect"; // will fail below
-} */
 
 // Check current answer
 const puzzleData = getCurrentPuzzle();

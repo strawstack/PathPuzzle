@@ -4,24 +4,24 @@ I make puzzles like the one below:
 
 | | | | | | | | | | | | | |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|6|D|4|5|5|8|A|F|D|5|9|E|8|
-|2|5|8|8|E|6|2|8|4|F|9|A|4|
-|1|7|4|B|8|3|C|2|0|2|C|2|2|
-|**5**|2|C|E|3|9|8|8|E|8|4|7|A|
-|9|5|1|A|0|E|8|A|0|E|0|B|**7**|
-|1|8|B|8|5|D|E|5|C|C|9|2|8|
+|1|5|0|B|0|4|0|1|4|8|3|D|9|
+|6|4|5|3|D|2|F|D|F|D|4|E|**8**|
+|A|F|8|2|2|7|0|2|1|1|3|F|4|
+|**7**|0|5|D|4|4|7|C|6|F|8|2|3|
+|A|1|3|0|0|B|0|8|1|4|5|2|8|
+|D|C|4|D|8|6|6|9|A|A|E|6|B|
 | | | | | | | | | | | | | |
 
 
 **PUZZLE**: Find a path from left to right.
 
-**FORMAT**: A valid answer is a string of 20 hex digits. Ex: D84B427574AB7D95E184
+**FORMAT**: A valid answer is a string of 31 hex digits. Ex: 974D4D238D544A66816DB98A2E2DC82
 
 **NOTE**: I'm currently debugging this repo, so the above puzzle may have no solution!
 
 # Most Recent Answer
 
-runner submitted an answer!
+richardhayes submitted an answer!
 
 Result: Invalid
 
