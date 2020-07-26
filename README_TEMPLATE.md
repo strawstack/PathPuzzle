@@ -28,7 +28,9 @@ A valid answer takes the form of {{LENGTH}} hex digits.
 
 Example: `{{EXAMPLE}}`
 
-Having trouble? Take a look at the `bit patterns`.
+Having trouble? Take a look at the `bit patterns` for the numbers above.
+
+Example: `3` -> `0011` and `C` -> `1100`
 
 ## NOTE
 
