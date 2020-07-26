@@ -37,6 +37,8 @@ A valid answer takes the form of 20 hex digits.
 
 Example: `9D9B1ED47BE95ED13D34`
 
+Having trouble? Take a look at the `bit patterns`.
+
 ## NOTE
 
 I'm currently debugging this repo, so the above puzzle may have no solution!
