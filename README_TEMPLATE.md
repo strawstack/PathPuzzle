@@ -9,7 +9,6 @@ I make puzzles like the one below. Can you find a path from left to right?
 1. A valid answer takes the form of {{LENGTH}} hex digits. Ex. {{EXAMPLE}}
 2. Create an issue with the title `Puzzle|ANSWER`
 3. Replace `ANSWER` with your answer. Ex. `Puzzle|E3A2...`
-4. Click [this link](https://github.com/strawstack/strawstack/issues/new?title=Puzzle%7CANSWER&body=Replace+ANSWER+with+your+answer.) to view a template.
 
 **NOTE**: I'm currently debugging this repo, so the above puzzle may have no solution!
 
