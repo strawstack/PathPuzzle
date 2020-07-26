@@ -27,15 +27,15 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 [AngelOnFira](https://www.github.com/AngelOnFira) submitted an answer!
 
-Result: `Invalid`
+Result: `Incorrect`
 
-Info: answer is too short
+Info: Try looking at bit patterns
 
 ## Hint
 
 A valid answer takes the form of 25 hex digits. 
 
-Example: `DCCC7E5665A782B2D82B1AD11`
+Example: `B51C9DA4E71D492E754ADDD92`
 
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
