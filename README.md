@@ -27,15 +27,15 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 [strawstack](https://www.github.com/strawstack) submitted an answer!
 
-Result: Invalid
+Result: Incorrect
 
-Info: answer is too short
+Info: The first 6 characters are correct: C29412
 
 ## Hint
 
 A valid answer takes the form of 23 hex digits. 
 
-Example: `7B39D394D34831BC911B137`
+Example: `81367B8924552A6E95B8569`
 
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
