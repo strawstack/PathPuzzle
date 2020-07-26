@@ -1,0 +1,34 @@
+name: Validate Puzzle Answer
+on:
+  issues:
+    types: [opened]
+
+jobs: 
+  validate-answer:
+    name: Lint with ESLint
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'Puzzle|')
+    steps: 
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    
+    - name: Install dependencies
+      run: npm install
+
+    - name: Update Readme
+      run: node main.js
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_name: Bot
+        author_email: actions@github.com
+        message: "Attempted Solution"
+        add: "*.md"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
