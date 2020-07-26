@@ -13,18 +13,30 @@ I make puzzles like the one below. Can you find a path from left to right?
 | | | | | | | | | | | | | |
 
 
-# HOW TO ANSWER
+## HOW TO ANSWER
 
-1. A valid answer takes the form of 20 hex digits. Ex. 331B6A6E547A1E4536BD
-2. Create an issue with the title `Puzzle|ANSWER`
-3. Replace `ANSWER` with your answer. Ex. `Puzzle|E3A2...`
+1. Create an issue with the title `Puzzle|ANSWER`
+2. Replace `ANSWER` with your answer. Ex. `Puzzle|E3A2...`
+3. A Github Action will automatically validate your answer, and close the issue when it's finished!
 
-**NOTE**: I'm currently debugging this repo, so the above puzzle may have no solution!
+## Create an Issue
 
-# Most Recent Answer
+Click [here](https://github.com/strawstack/strawstack/issues/new) to create a new issue.
 
-strawstack submitted an answer!
+## Most Recent Answer
+
+[strawstack](https://www.github.com/strawstack) submitted an answer!
 
 Result: Invalid
 
 Info: answer is too short
+
+## Hint
+
+A valid answer takes the form of 20 hex digits. 
+
+Example: `9D9B1ED47BE95ED13D34`
+
+## NOTE
+
+I'm currently debugging this repo, so the above puzzle may have no solution!
