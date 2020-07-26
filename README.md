@@ -29,13 +29,13 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 Result: `Incorrect`
 
-Info: The first 5 digits are correct `34B42`
+Info: The first 6 digits are correct `34B428`
 
 ## Hint
 
 A valid answer takes the form of 25 hex digits. 
 
-Example: `9585D55A4BE35E898817A21AA`
+Example: `B474B6246C67ABA77642DED42`
 
 Check out the bold numbers in the left and right-most columns.
 
