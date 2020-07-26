@@ -466,11 +466,16 @@ const getCurrentPuzzle = () => {
 //
 
 // Constants
-const title = process.env.TITLE || "Puzzle|F34TEST";
-const user = process.env.USER || "Strawstack";
+let answer;
+let title;
+let user;
 try {
+    title = process.argv[2];
+    user = process.argv[3];
     answer = title.split("|")[1];
 } catch {
+    title = "Puzzle|F34TEST";
+    user = "Strawstack";
     answer = "incorrect"; // will fail below
 }
 
