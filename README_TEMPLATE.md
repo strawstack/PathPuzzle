@@ -11,6 +11,10 @@ I make puzzles like the one below. Can you find a path from left to right?
 3. Replace `ANSWER` with your answer. Ex. `Puzzle|E3A2...`
 4. A Github Action will automatically validate your answer, and close the issue when its finished!
 
+## Create an Issue
+
+Click [here](https://github.com/strawstack/strawstack/issues/new) to create a new issue.
+
 ## Most Recent Answer
 
 {{USERNAME}} submitted an answer!
