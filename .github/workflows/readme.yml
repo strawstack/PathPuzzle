@@ -5,7 +5,7 @@ on:
 
 jobs: 
   validate-answer:
-    name: Lint with ESLint
+    name: Validate Puzzle Answer
     runs-on: ubuntu-latest
     if: startsWith(github.event.issue.title, 'Puzzle|')
     steps: 
@@ -32,3 +32,5 @@ jobs:
         add: "*.md"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        TITLE: ${{ github.event.issue.title }}
+        USER: ${{ github.event.issue.user.login }}
