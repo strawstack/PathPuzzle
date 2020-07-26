@@ -29,13 +29,13 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 Result: Incorrect
 
-Info: The first 6 characters are correct: C29412
+Info: The first 6 characters are correct `C29412`
 
 ## Hint
 
 A valid answer takes the form of 23 hex digits. 
 
-Example: `81367B8924552A6E95B8569`
+Example: `B337EAA1B1BB2A39B9626E8`
 
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
