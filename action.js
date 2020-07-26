@@ -292,7 +292,9 @@ const makeAdjWrong = (path, grid) => {
     for (let key in collection) {
         let hex_values = collection[key];
         let tar = _hash_unwrap(key);
-        _grid[tar.r][tar.c] = randomWrongNumberList(hex_values);
+        let wrong_bin = randomWrongNumberList(hex_values);
+        let wrong_hex = binToHex(wrong_bin);
+        _grid[tar.r][tar.c] = wrong_hex;
     }
     return _grid;
 };
