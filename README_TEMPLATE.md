@@ -8,7 +8,7 @@ I make puzzles like the one below. Can you find a path from left to right?
 
 1. Create an issue with the title `Puzzle|ANSWER`
 2. Replace `ANSWER` with your answer. Ex. `Puzzle|E3A2...`
-3. A Github Action will automatically validate your answer, and close the issue when its finished!
+3. A Github Action will automatically validate your answer, and close the issue when it's finished!
 
 ## Create an Issue
 
