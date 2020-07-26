@@ -1,6 +1,6 @@
 # Hello, I'm Richard
 
-I make puzzles like the one below. Can you find a path from left to right?
+I make puzzles like the one below. Can you find the path from left to right?
 
 {{PUZZLE}}
 
@@ -18,7 +18,7 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 [{{USERNAME}}](https://www.github.com/{{USERNAME}}) submitted an answer!
 
-Result: {{RESULT}}
+Result: `{{RESULT}}`
 
 Info: {{INFO}}
 
@@ -31,7 +31,3 @@ Example: `{{EXAMPLE}}`
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
 Example: `3` -> `0011` and `C` -> `1100`
-
-## NOTE
-
-I'm currently debugging this repo, so the above puzzle may have no solution!
