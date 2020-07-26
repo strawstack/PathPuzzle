@@ -485,6 +485,8 @@ const updateReadme = data => {
         const value = data[key];
         template = template.replace(`{{${key}}}`, value);
     }
+    // Username again beacuse there are two
+    template = template.replace(`{{USERNAME}}`, data["USERNAME"]);
 
     fs.writeFileSync(
         README,

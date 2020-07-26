@@ -1,19 +1,37 @@
 # Hello, I'm Richard
 
-I make puzzles like the one below:
+I make puzzles like the one below. Can you find a path from left to right?
 
 {{PUZZLE}}
 
-**PUZZLE**: Find a path from left to right.
+## HOW TO ANSWER
 
-**FORMAT**: A valid answer is a string of {{LENGTH}} hex digits. Ex: {{EXAMPLE}}
+1. Create an issue with the title `Puzzle|ANSWER`
+2. Replace `ANSWER` with your answer. Ex. `Puzzle|E3A2...`
+3. A Github Action will automatically validate your answer, and close the issue when it's finished!
 
-**NOTE**: I'm currently debugging this repo, so the above puzzle may have no solution!
+## Create an Issue
 
-# Most Recent Answer
+Click [here](https://github.com/strawstack/strawstack/issues/new) to create a new issue.
 
-{{USERNAME}} submitted an answer!
+## Most Recent Answer
+
+[{{USERNAME}}](https://www.github.com/{{USERNAME}}) submitted an answer!
 
 Result: {{RESULT}}
 
 Info: {{INFO}}
+
+## Hint
+
+A valid answer takes the form of {{LENGTH}} hex digits. 
+
+Example: `{{EXAMPLE}}`
+
+Having trouble? Take a look at the `bit patterns` for the numbers above.
+
+Example: `3` -> `0011` and `C` -> `1100`
+
+## NOTE
+
+I'm currently debugging this repo, so the above puzzle may have no solution!

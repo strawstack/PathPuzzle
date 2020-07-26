@@ -18,12 +18,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    
-    - name: Install dependencies
-      run: npm install
 
     - name: Update Readme
-      run: node action.js
+      run: node action.js "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}"
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v4
@@ -40,5 +37,3 @@ jobs:
 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        TITLE: ${{ github.event.issue.title }}
-        USER: ${{ github.event.issue.user.login }}
