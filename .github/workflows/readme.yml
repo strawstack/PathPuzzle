@@ -30,6 +30,10 @@ jobs:
         author_email: actions@github.com
         message: "Attempted Solution"
         add: "*.md"
+    - name: Close Issue
+      uses: peter-evans/close-issue@v1
+      with:
+        issue-number: ${{ github.event.issue.number }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TITLE: ${{ github.event.issue.title }}
