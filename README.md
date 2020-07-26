@@ -35,9 +35,11 @@ Info: answer is too short
 
 A valid answer takes the form of 20 hex digits. 
 
-Example: `9D9B1ED47BE95ED13D34`
+Example: `25368698641D5B458D94`
 
-Having trouble? Take a look at the `bit patterns`.
+Having trouble? Take a look at the `bit patterns` for the numbers above.
+
+Example: `3` -> `0011` and `C` -> `1100`
 
 ## NOTE
 
