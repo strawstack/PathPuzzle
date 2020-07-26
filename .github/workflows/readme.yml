@@ -5,9 +5,11 @@ on:
 
 jobs: 
   validate-answer:
+    
     name: Validate Puzzle Answer
     runs-on: ubuntu-latest
     if: startsWith(github.event.issue.title, 'Puzzle|')
+    
     steps: 
     - name: Checkout repo
       uses: actions/checkout@v2
@@ -30,10 +32,12 @@ jobs:
         author_email: actions@github.com
         message: "Attempted Solution"
         add: "*.md"
+
     - name: Close Issue
       uses: peter-evans/close-issue@v1
       with:
         issue-number: ${{ github.event.issue.number }}
+
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TITLE: ${{ github.event.issue.title }}
