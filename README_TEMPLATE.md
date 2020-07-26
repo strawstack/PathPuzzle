@@ -28,6 +28,8 @@ A valid answer takes the form of {{LENGTH}} hex digits.
 
 Example: `{{EXAMPLE}}`
 
+Check out the bold numbers in the left and right-most columns.
+
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
 Example: `3` -> `0011` and `C` -> `1100`
