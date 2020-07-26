@@ -5,7 +5,7 @@ const fs = require('fs');
 //
 
 const getLetters = () => {
-    // Return hex digits 0 to F
+    // Return hex digits 1 to E
     let letters = [];
     for (let i = 1; i < 15; i++) {
         const hex = i.toString(16).toUpperCase();
@@ -483,6 +483,7 @@ if (result.result === "Correct") {
     });
 
 } else { // "Incorrect" or "Invalid"
+    storePuzzle(puzzleData);
     updateReadme({
         PUZZLE: formatPuzzle(path, puzzleData.grid),
         LENGTH: path.length,
