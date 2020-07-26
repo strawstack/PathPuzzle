@@ -6,10 +6,9 @@ I make puzzles like the one below. Can you find a path from left to right?
 
 ## HOW TO ANSWER
 
-1. A valid answer takes the form of {{LENGTH}} hex digits. Ex. {{EXAMPLE}}
-2. Create an issue with the title `Puzzle|ANSWER`
-3. Replace `ANSWER` with your answer. Ex. `Puzzle|E3A2...`
-4. A Github Action will automatically validate your answer, and close the issue when its finished!
+1. Create an issue with the title `Puzzle|ANSWER`
+2. Replace `ANSWER` with your answer. Ex. `Puzzle|E3A2...`
+3. A Github Action will automatically validate your answer, and close the issue when its finished!
 
 ## Create an Issue
 
@@ -17,11 +16,17 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 ## Most Recent Answer
 
-{{USERNAME}} submitted an answer!
+[{{USERNAME}}](https://www.github.com/{{USERNAME}}) submitted an answer!
 
 Result: {{RESULT}}
 
 Info: {{INFO}}
+
+## Hint
+
+A valid answer takes the form of {{LENGTH}} hex digits. 
+
+Example: `{{EXAMPLE}}`
 
 ## NOTE
 
