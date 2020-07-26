@@ -25,7 +25,7 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 ## Most Recent Answer
 
-[strawstack](https://www.github.com/strawstack) submitted an answer!
+[bryik](https://www.github.com/bryik) submitted an answer!
 
 Result: `Incorrect`
 
@@ -35,7 +35,7 @@ Info: The first 4 digits are correct `34B4`
 
 A valid answer takes the form of 25 hex digits. 
 
-Example: `2C7E8311DDE24BDA2BE814E7E`
+Example: `D792DE9295B55893739648A75`
 
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
