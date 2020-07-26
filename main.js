@@ -1,4 +1,3 @@
-//const core = require('@actions/core');
 const fs = require('fs');
 
 //
@@ -445,8 +444,8 @@ const getCurrentPuzzle = () => {
 //
 
 // Constants
-const title = core.getInput('title');
-const user = core.getInput('user');
+const title = process.env.TITLE;
+const user = process.env.USER;
 try {
     answer = title.split("|")[1];
 } catch {
