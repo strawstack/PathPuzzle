@@ -4,24 +4,24 @@ I make puzzles like the one below:
 
 | | | | | | | | | | | | | |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|5|D|1|9|9|5|6|6|D|2|4|4|9|
-|6|C|E|8|7|2|2|D|2|6|3|6|4|
-|7|7|2|6|1|3|5|3|6|E|8|9|9|
-|5|6|9|D|6|3|2|B|D|4|4|1|**C**|
-|**1**|2|8|3|C|2|D|4|A|3|C|D|4|
-|D|A|C|A|9|A|8|5|B|5|E|6|7|
+|**E**|1|A|true,false,false,false|1|C|true,false,false,false|false,true,false,false|false,false,false,true|false,false,true,false|false,true,false,false|2|6|
+|false,false,true,false|false,false,false,true|5|false,true,false,true|false,true,false,false|true,false,false,false|8|4|1|2|4|false,true,false,false|4|
+|D|true,false,false,false|A|1|4|false,true,false,false|4|false,true,false,false|false,false,false,true|false,false,true,true|1|false,false,false,true|B|
+|8|8|true,false,false,false|true,false,false,true|8|true,false,false,false|9|false,false,false,true|E|false,false,true,false|A|false,false,true,false|2|
+|9|C|6|false,false,true,false|7|8|6|false,true,false,false|4|false,false,false,true|1|A|**1**|
+|4|3|7|8|false,false,false,true|true,false,false,false|false,false,true,false|5|6|E|false,false,false,true|false,false,true,false|6|
 | | | | | | | | | | | | | |
 
 
 **PUZZLE**: Find a path from left to right.
 
-**FORMAT**: A valid answer is a string of 20 hex digits. Ex: A279BE2A61E28EC49ADD
+**FORMAT**: A valid answer is a string of 19 hex digits. Ex: 65656DD7BB95181A918
 
 **NOTE**: I'm currently debugging this repo, so the above puzzle may have no solution!
 
 # Most Recent Answer
 
-runner submitted an answer!
+Strawstack submitted an answer!
 
 Result: Invalid
 

@@ -14,6 +14,20 @@ const getLetters = () => {
     return letters;
 };
 
+const _hash = v => {
+    return `${v.r}:${v.c}`;
+};
+
+const _hash_unwrap = key => {
+    const rowCol = key.split(":");
+    const row = parseInt(rowCol[0], 10);
+    const col = parseInt(rowCol[1], 10);
+    return {
+        r: row,
+        c: col
+    };
+};
+
 const getGrid = (ROWS, COLS, letters) => {
     // Return grid of hex digits
     // Size ROWS x COLS
@@ -170,6 +184,30 @@ const randomWrongNumber = hex => {
     return ans;
 };
 
+const randomWrongNumberList = lst => {
+    let onesLst = [];
+    const ans = [false, false, false, false];
+    // For each hex in list, get list of ones
+    for (let hex of lst) {
+        const bin = hexToBin(hex);
+        let ones = [];
+        for (let i = 0; i < bin.length; i++) {
+            if (bin[i]) {
+                ones.push(i);
+            }
+        }
+        onesLst.push(ones);
+    }
+
+    // From each list of ones choose a single one to make conflict
+    for (let ones of onesLst) {
+        // Random index
+        let ri = ones[Math.floor(Math.random() * ones.length)];
+        ans[ri] = true;
+    }
+    return ans;
+};
+
 const binToHex = bin => {
     // binary list to hex letter
     let total = 0;
@@ -230,6 +268,7 @@ const _inPath = (tar, path) => {
 const makeAdjWrong = (path, grid) => {
     // Make number adj to path conflict
     let _grid = copyGrid(grid);
+    let collection = {}; // {_hash_adj: [hex, hex, ...]}
     const adj = [{r:-1,c:0}, {r:0,c:1}, {r:1,c:0}, {r:0,c:-1}];
     for (let i = 0; i < path.length - 1; i++) {
         let cur = path[i];
@@ -241,13 +280,19 @@ const makeAdjWrong = (path, grid) => {
                 c: cur.c + a.c
             };
             if (!_inPath(tar, path) && _bounds(grid, tar)) {
-                _grid[tar.r][tar.c] = binToHex(
-                    randomWrongNumber(
-                        _grid[cur.r][cur.c]
-                    )
-                );
+                let hex = _grid[cur.r][cur.c];
+                let ht = _hash(tar);
+                if (!(ht in collection)) {
+                    collection[ht] = [];
+                }
+                collection[ht].push(hex);
             }
         }
+    }
+    for (let key in collection) {
+        let hex_values = collection[key];
+        let tar = _hash_unwrap(key);
+        _grid[tar.r][tar.c] = randomWrongNumberList(hex_values);
     }
     return _grid;
 };
@@ -349,10 +394,6 @@ const _compatible = (a, b, grid) => {
     const n1 = parseInt(grid[a.r][a.c], 16);
     const n2 = parseInt(grid[b.r][b.c], 16);
     return (n1 & n2) === 0;
-};
-
-const _hash = v => {
-    return `${v.r}:${v.c}`;
 };
 
 const _hexToBinStr = hex => {
