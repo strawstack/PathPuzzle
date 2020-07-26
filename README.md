@@ -1,6 +1,6 @@
 # Hello, I'm Richard
 
-I make puzzles like the one below:
+I make puzzles like the one below. Can you find a path from left to right?
 
 | | | | | | | | | | | | | |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -13,9 +13,11 @@ I make puzzles like the one below:
 | | | | | | | | | | | | | |
 
 
-**PUZZLE**: Find a path from left to right.
+# HOW TO ANSWER
 
-**FORMAT**: A valid answer is a string of 20 hex digits. Ex: 282B42765B6855D12E73
+1. A valid answer takes the form of 20 hex digits. Ex. 331B6A6E547A1E4536BD
+2. Create an issue with the title `Puzzle|ANSWER`
+3. Replace `ANSWER` with your answer. Ex. `Puzzle|E3A2...`
 
 **NOTE**: I'm currently debugging this repo, so the above puzzle may have no solution!
 
