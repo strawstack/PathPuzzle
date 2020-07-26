@@ -31,7 +31,7 @@ jobs:
         author_name: Bot
         author_email: actions@github.com
         message: "Attempted Solution"
-        add: "*.md"
+        add: "*.md *.json"
 
     - name: Close Issue
       uses: peter-evans/close-issue@v1
