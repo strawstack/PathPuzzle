@@ -15,13 +15,13 @@ I make puzzles like the one below:
 
 **PUZZLE**: Find a path from left to right.
 
-**FORMAT**: A valid answer is a string of 20 hex digits. Ex: A279BE2A61E28EC49ADD
+**FORMAT**: A valid answer is a string of 20 hex digits. Ex: D8DDD5C576995A76DB44
 
 **NOTE**: I'm currently debugging this repo, so the above puzzle may have no solution!
 
 # Most Recent Answer
 
-runner submitted an answer!
+Strawstack submitted an answer!
 
 Result: Invalid
 
