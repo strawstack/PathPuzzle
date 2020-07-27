@@ -35,7 +35,7 @@ Info: The first 6 digits are correct `34B428`
 
 A valid answer takes the form of 25 hex digits. 
 
-Example: `D357E29DB5C77A699A62C89C8`
+Example: `B524D1C3B73AB3C43EA3DC411`
 
 Check out the bold numbers in the left and right-most columns.
 
