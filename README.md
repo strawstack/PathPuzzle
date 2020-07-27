@@ -25,17 +25,17 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 ## Most Recent Answer
 
-[AngelOnFira](https://www.github.com/AngelOnFira) submitted an answer!
+[TianyouDai](https://www.github.com/TianyouDai) submitted an answer!
 
-Result: `Incorrect`
+Result: `Invalid`
 
-Info: The first 6 digits are correct `34B428`
+Info: answer is too short
 
 ## Hint
 
 A valid answer takes the form of 25 hex digits. 
 
-Example: `B474B6246C67ABA77642DED42`
+Example: `B4E2E24EB122B539412AC9413`
 
 Check out the bold numbers in the left and right-most columns.
 
