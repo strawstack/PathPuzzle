@@ -29,13 +29,13 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 Result: `Incorrect`
 
-Info: Try looking at bit patterns
+Info: The first character was correct
 
 ## Hint
 
 A valid answer takes the form of 25 hex digits. 
 
-Example: `63C1B833328CA5B79284A3DC8`
+Example: `6C936E652398B53C233B9522E`
 
 Check out the bold numbers in the left and right-most columns.
 
