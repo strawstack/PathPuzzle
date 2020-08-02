@@ -9,7 +9,7 @@ I make puzzles like the one below. Can you find the path from left to right?
 |1|8|8|9|4|4|4|6|4|7|E|5|2|
 |A|2|2|2|C|8|8|2|4|4|4|1|4|
 |2|4|4|4|6|D|8|3|9|C|C|3|C|
-|<ins>**3**</ins>|4|B|1|2|3|C|4|6|9|2|3|**3**|
+|<ins>**3**</ins>|4|B|1|2|3|C|4|6|9|2|3|<ins>**3**</ins>|
 | | | | | | | | | | | | | |
 
 
