@@ -448,8 +448,8 @@ const formatPuzzle = (path, grid) => {
     let _grid = copyGrid(grid);
     let s = path[0];
     let e = _last(path);
-    _grid[s.r][s.c] = `**${_grid[s.r][s.c]}**`;
-    _grid[e.r][e.c] = `**${_grid[e.r][e.c]}**`;
+    _grid[s.r][s.c] = `<ins>**${_grid[s.r][s.c]}**</ins>`;
+    _grid[e.r][e.c] = `<ins>**${_grid[e.r][e.c]}**</ins>`;
     let COLS = _grid[0].length;
     let emptyRow = [];
     for (let i = 0; i < COLS + 1; i++) {
