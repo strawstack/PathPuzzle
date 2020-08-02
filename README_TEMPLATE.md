@@ -1,6 +1,8 @@
 # Hello, I'm Richard
 
-I make puzzles like the one below. Can you find the path from left to right?
+I make puzzles like the one below. 
+
+Can you find the path from left to right?
 
 {{PUZZLE}}
 
@@ -28,7 +30,7 @@ A valid answer takes the form of {{LENGTH}} hex digits.
 
 Example: `{{EXAMPLE}}`
 
-Check out the bold numbers in the left and right-most columns.
+Check out the bold, underlined, numbers in the left and right-most columns. Can you find a path between them?
 
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
