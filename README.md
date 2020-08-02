@@ -1,6 +1,8 @@
 # Hello, I'm Richard
 
-I make puzzles like the one below. Can you find the path from left to right?
+I make puzzles like the one below. 
+
+Can you find the path from left to right?
 
 | | | | | | | | | | | | | |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -27,17 +29,17 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 [strawstack](https://www.github.com/strawstack) submitted an answer!
 
-Result: `Correct`
+Result: `Incorrect`
 
-Info: You got it! The puzzle has been reset
+Info: The first 4 digits are correct `5A1E`
 
 ## Hint
 
 A valid answer takes the form of 19 hex digits. 
 
-Example: `B7CE5384A19CE5451D1`
+Example: `45D8CE85DC69E3DD4D1`
 
-Check out the bold numbers in the left and right-most columns.
+Check out the bold, underlined, numbers in the left and right-most columns. Can you find a path between them?
 
 Having trouble? Take a look at the `bit patterns` for the numbers above.
 
