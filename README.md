@@ -29,13 +29,13 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 Result: `Incorrect`
 
-Info: The first character was correct
+Info: The first 7 digits are correct `34B4286`
 
 ## Hint
 
 A valid answer takes the form of 25 hex digits. 
 
-Example: `6C936E652398B53C233B9522E`
+Example: `227EBC85943686BE6CAC2A263`
 
 Check out the bold numbers in the left and right-most columns.
 
