@@ -37,7 +37,7 @@ Info: The first 4 digits are correct `5A1E`
 
 A valid answer takes the form of 19 hex digits. 
 
-Example: `45D8CE85DC69E3DD4D1`
+Example: `97CEB7E9DD19E4A3998`
 
 Check out the bold, underlined, numbers in the left and right-most columns. Can you find a path between them?
 
