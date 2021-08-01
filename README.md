@@ -6,12 +6,12 @@ Can you find the path from left to right?
 
 | | | | | | | | | | | | | |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|<ins>**5**</ins>|A|1|1|3|9|9|1|7|1|4|B|7|
-|1|A|E|8|2|C|C|3|7|1|8|1|3|
-|E|1|1|C|3|A|4|1|2|4|C|3|<ins>**8**</ins>|
-|9|3|1|C|4|B|4|1|2|2|2|3|C|
-|3|4|6|9|4|2|4|9|D|2|9|8|7|
-|8|3|9|D|6|2|E|D|1|2|1|6|1|
+|A|6|2|8|2|2|2|8|2|C|A|9|9|
+|A|4|6|8|2|3|7|8|3|1|8|5|<ins>**C**</ins>|
+|2|1|1|D|4|2|8|C|C|8|1|2|3|
+|<ins>**2**</ins>|9|4|4|4|2|8|1|1|1|1|6|8|
+|2|8|4|2|D|C|B|2|2|A|E|4|8|
+|A|6|3|E|4|9|C|1|1|8|1|1|B|
 | | | | | | | | | | | | | |
 
 
@@ -29,15 +29,15 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 [strawstack](https://www.github.com/strawstack) submitted an answer!
 
-Result: `Invalid`
+Result: `Correct`
 
-Info: answer is too short
+Info: You got it! The puzzle has been reset
 
 ## Hint
 
-A valid answer takes the form of 19 hex digits. 
+A valid answer takes the form of 25 hex digits. 
 
-Example: `3C779A979DA516C23DC`
+Example: `D4E5EDC1C3729B1ED28D77A63`
 
 Check out the bold, underlined, numbers in the left and right-most columns. Can you find a path between them?
 
