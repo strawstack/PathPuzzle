@@ -29,15 +29,15 @@ Click [here](https://github.com/strawstack/strawstack/issues/new) to create a ne
 
 [strawstack](https://www.github.com/strawstack) submitted an answer!
 
-Result: `Incorrect`
+Result: `Invalid`
 
-Info: The first 4 digits are correct `5A1E`
+Info: answer is too short
 
 ## Hint
 
 A valid answer takes the form of 19 hex digits. 
 
-Example: `97CEB7E9DD19E4A3998`
+Example: `3C779A979DA516C23DC`
 
 Check out the bold, underlined, numbers in the left and right-most columns. Can you find a path between them?
 
